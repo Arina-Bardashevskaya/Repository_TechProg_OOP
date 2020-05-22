@@ -30,5 +30,241 @@ Only zamena's.
 11: Length = 2.
 12: Length = 2.
 
+Multimethod.
+Zamena and Cezar
+It is Zamena: rule = Keyword-change, open = duplication, code = fqjbeispegd, owner = Trofimov. 
+It is Cezar: rot = 9, open = yourself, code = hxdabnuo, owner = Erofeeva. 
+Zamena and Zamena
+It is Zamena: rule = Keyword-change, open = duplication, code = fqjbeispegd, owner = Trofimov. 
+It is Zamena: rule = Pare-change, open = simple, code = tjnokf, owner = Petrov. 
+Zamena and Cezar
+It is Zamena: rule = Keyword-change, open = duplication, code = fqjbeispegd, owner = Trofimov. 
+It is Cezar: rot = 8, open = repeat, code = zmxmib, owner = Drepin. 
+Zamena and Cezar
+It is Zamena: rule = Keyword-change, open = duplication, code = fqjbeispegd, owner = Trofimov. 
+It is Cezar: rot = 5, open = stupid, code = xyzuni, owner = Sidorov. 
+Zamena and Cezar
+It is Zamena: rule = Keyword-change, open = duplication, code = fqjbeispegd, owner = Trofimov. 
+It is Cezar: rot = 26, open = evil, code = evil, owner = Chumakova. 
+Zamena and Zamena
+It is Zamena: rule = Keyword-change, open = duplication, code = fqjbeispegd, owner = Trofimov. 
+It is Zamena: rule = Pare-change, open = dont, code = cpms, owner = Monid. 
+Zamena and Numeric
+It is Zamena: rule = Keyword-change, open = duplication, code = fqjbeispegd, owner = Trofimov. 
+It is Numeric: digit = 1, open = keep, code = 115516, owner = Bardashevskaya. 
+Zamena and Zamena
+It is Zamena: rule = Keyword-change, open = duplication, code = fqjbeispegd, owner = Trofimov. 
+It is Zamena: rule = Keyword-change, open = test, code = prop, owner = Alexeev. 
+Zamena and Zamena
+It is Zamena: rule = Keyword-change, open = duplication, code = fqjbeispegd, owner = Trofimov. 
+It is Zamena: rule = Atbash, open = cat, code = xzg, owner = User1. 
+Zamena and Cezar
+It is Zamena: rule = Keyword-change, open = duplication, code = fqjbeispegd, owner = Trofimov. 
+It is Cezar: rot = 10, open = doc, code = nym, owner = User3. 
+Zamena and Cezar
+It is Zamena: rule = Keyword-change, open = duplication, code = fqjbeispegd, owner = Trofimov. 
+It is Cezar: rot = 3, open = it, code = lw, owner = Ivanov. 
+Zamena and Cezar
+It is Zamena: rule = Keyword-change, open = duplication, code = fqjbeispegd, owner = Trofimov. 
+It is Cezar: rot = 25, open = is, code = hr, owner = Efimov. 
+Cezar and Zamena
+It is Cezar: rot = 9, open = yourself, code = hxdabnuo, owner = Erofeeva. 
+It is Zamena: rule = Pare-change, open = simple, code = tjnokf, owner = Petrov. 
+Cezar and Cezar
+It is Cezar: rot = 9, open = yourself, code = hxdabnuo, owner = Erofeeva. 
+It is Cezar: rot = 8, open = repeat, code = zmxmib, owner = Drepin. 
+Cezar and Cezar
+It is Cezar: rot = 9, open = yourself, code = hxdabnuo, owner = Erofeeva. 
+It is Cezar: rot = 5, open = stupid, code = xyzuni, owner = Sidorov. 
+Cezar and Cezar
+It is Cezar: rot = 9, open = yourself, code = hxdabnuo, owner = Erofeeva. 
+It is Cezar: rot = 26, open = evil, code = evil, owner = Chumakova. 
+Cezar and Zamena
+It is Cezar: rot = 9, open = yourself, code = hxdabnuo, owner = Erofeeva. 
+It is Zamena: rule = Pare-change, open = dont, code = cpms, owner = Monid. 
+Cezar and Numeric
+It is Cezar: rot = 9, open = yourself, code = hxdabnuo, owner = Erofeeva. 
+It is Numeric: digit = 1, open = keep, code = 115516, owner = Bardashevskaya. 
+Cezar and Zamena
+It is Cezar: rot = 9, open = yourself, code = hxdabnuo, owner = Erofeeva. 
+It is Zamena: rule = Keyword-change, open = test, code = prop, owner = Alexeev. 
+Cezar and Zamena
+It is Cezar: rot = 9, open = yourself, code = hxdabnuo, owner = Erofeeva. 
+It is Zamena: rule = Atbash, open = cat, code = xzg, owner = User1. 
+Cezar and Cezar
+It is Cezar: rot = 9, open = yourself, code = hxdabnuo, owner = Erofeeva. 
+It is Cezar: rot = 10, open = doc, code = nym, owner = User3. 
+Cezar and Cezar
+It is Cezar: rot = 9, open = yourself, code = hxdabnuo, owner = Erofeeva. 
+It is Cezar: rot = 3, open = it, code = lw, owner = Ivanov. 
+Cezar and Cezar
+It is Cezar: rot = 9, open = yourself, code = hxdabnuo, owner = Erofeeva. 
+It is Cezar: rot = 25, open = is, code = hr, owner = Efimov. 
+Zamena and Cezar
+It is Zamena: rule = Pare-change, open = simple, code = tjnokf, owner = Petrov. 
+It is Cezar: rot = 8, open = repeat, code = zmxmib, owner = Drepin. 
+Zamena and Cezar
+It is Zamena: rule = Pare-change, open = simple, code = tjnokf, owner = Petrov. 
+It is Cezar: rot = 5, open = stupid, code = xyzuni, owner = Sidorov. 
+Zamena and Cezar
+It is Zamena: rule = Pare-change, open = simple, code = tjnokf, owner = Petrov. 
+It is Cezar: rot = 26, open = evil, code = evil, owner = Chumakova. 
+Zamena and Zamena
+It is Zamena: rule = Pare-change, open = simple, code = tjnokf, owner = Petrov. 
+It is Zamena: rule = Pare-change, open = dont, code = cpms, owner = Monid. 
+Zamena and Numeric
+It is Zamena: rule = Pare-change, open = simple, code = tjnokf, owner = Petrov. 
+It is Numeric: digit = 1, open = keep, code = 115516, owner = Bardashevskaya. 
+Zamena and Zamena
+It is Zamena: rule = Pare-change, open = simple, code = tjnokf, owner = Petrov. 
+It is Zamena: rule = Keyword-change, open = test, code = prop, owner = Alexeev. 
+Zamena and Zamena
+It is Zamena: rule = Pare-change, open = simple, code = tjnokf, owner = Petrov. 
+It is Zamena: rule = Atbash, open = cat, code = xzg, owner = User1. 
+Zamena and Cezar
+It is Zamena: rule = Pare-change, open = simple, code = tjnokf, owner = Petrov. 
+It is Cezar: rot = 10, open = doc, code = nym, owner = User3. 
+Zamena and Cezar
+It is Zamena: rule = Pare-change, open = simple, code = tjnokf, owner = Petrov. 
+It is Cezar: rot = 3, open = it, code = lw, owner = Ivanov. 
+Zamena and Cezar
+It is Zamena: rule = Pare-change, open = simple, code = tjnokf, owner = Petrov. 
+It is Cezar: rot = 25, open = is, code = hr, owner = Efimov. 
+Cezar and Cezar
+It is Cezar: rot = 8, open = repeat, code = zmxmib, owner = Drepin. 
+It is Cezar: rot = 5, open = stupid, code = xyzuni, owner = Sidorov. 
+Cezar and Cezar
+It is Cezar: rot = 8, open = repeat, code = zmxmib, owner = Drepin. 
+It is Cezar: rot = 26, open = evil, code = evil, owner = Chumakova. 
+Cezar and Zamena
+It is Cezar: rot = 8, open = repeat, code = zmxmib, owner = Drepin. 
+It is Zamena: rule = Pare-change, open = dont, code = cpms, owner = Monid. 
+Cezar and Numeric
+It is Cezar: rot = 8, open = repeat, code = zmxmib, owner = Drepin. 
+It is Numeric: digit = 1, open = keep, code = 115516, owner = Bardashevskaya. 
+Cezar and Zamena
+It is Cezar: rot = 8, open = repeat, code = zmxmib, owner = Drepin. 
+It is Zamena: rule = Keyword-change, open = test, code = prop, owner = Alexeev. 
+Cezar and Zamena
+It is Cezar: rot = 8, open = repeat, code = zmxmib, owner = Drepin. 
+It is Zamena: rule = Atbash, open = cat, code = xzg, owner = User1. 
+Cezar and Cezar
+It is Cezar: rot = 8, open = repeat, code = zmxmib, owner = Drepin. 
+It is Cezar: rot = 10, open = doc, code = nym, owner = User3. 
+Cezar and Cezar
+It is Cezar: rot = 8, open = repeat, code = zmxmib, owner = Drepin. 
+It is Cezar: rot = 3, open = it, code = lw, owner = Ivanov. 
+Cezar and Cezar
+It is Cezar: rot = 8, open = repeat, code = zmxmib, owner = Drepin. 
+It is Cezar: rot = 25, open = is, code = hr, owner = Efimov. 
+Cezar and Cezar
+It is Cezar: rot = 5, open = stupid, code = xyzuni, owner = Sidorov. 
+It is Cezar: rot = 26, open = evil, code = evil, owner = Chumakova. 
+Cezar and Zamena
+It is Cezar: rot = 5, open = stupid, code = xyzuni, owner = Sidorov. 
+It is Zamena: rule = Pare-change, open = dont, code = cpms, owner = Monid. 
+Cezar and Numeric
+It is Cezar: rot = 5, open = stupid, code = xyzuni, owner = Sidorov. 
+It is Numeric: digit = 1, open = keep, code = 115516, owner = Bardashevskaya. 
+Cezar and Zamena
+It is Cezar: rot = 5, open = stupid, code = xyzuni, owner = Sidorov. 
+It is Zamena: rule = Keyword-change, open = test, code = prop, owner = Alexeev. 
+Cezar and Zamena
+It is Cezar: rot = 5, open = stupid, code = xyzuni, owner = Sidorov. 
+It is Zamena: rule = Atbash, open = cat, code = xzg, owner = User1. 
+Cezar and Cezar
+It is Cezar: rot = 5, open = stupid, code = xyzuni, owner = Sidorov. 
+It is Cezar: rot = 10, open = doc, code = nym, owner = User3. 
+Cezar and Cezar
+It is Cezar: rot = 5, open = stupid, code = xyzuni, owner = Sidorov. 
+It is Cezar: rot = 3, open = it, code = lw, owner = Ivanov. 
+Cezar and Cezar
+It is Cezar: rot = 5, open = stupid, code = xyzuni, owner = Sidorov. 
+It is Cezar: rot = 25, open = is, code = hr, owner = Efimov. 
+Cezar and Zamena
+It is Cezar: rot = 26, open = evil, code = evil, owner = Chumakova. 
+It is Zamena: rule = Pare-change, open = dont, code = cpms, owner = Monid. 
+Cezar and Numeric
+It is Cezar: rot = 26, open = evil, code = evil, owner = Chumakova. 
+It is Numeric: digit = 1, open = keep, code = 115516, owner = Bardashevskaya. 
+Cezar and Zamena
+It is Cezar: rot = 26, open = evil, code = evil, owner = Chumakova. 
+It is Zamena: rule = Keyword-change, open = test, code = prop, owner = Alexeev. 
+Cezar and Zamena
+It is Cezar: rot = 26, open = evil, code = evil, owner = Chumakova. 
+It is Zamena: rule = Atbash, open = cat, code = xzg, owner = User1. 
+Cezar and Cezar
+It is Cezar: rot = 26, open = evil, code = evil, owner = Chumakova. 
+It is Cezar: rot = 10, open = doc, code = nym, owner = User3. 
+Cezar and Cezar
+It is Cezar: rot = 26, open = evil, code = evil, owner = Chumakova. 
+It is Cezar: rot = 3, open = it, code = lw, owner = Ivanov. 
+Cezar and Cezar
+It is Cezar: rot = 26, open = evil, code = evil, owner = Chumakova. 
+It is Cezar: rot = 25, open = is, code = hr, owner = Efimov. 
+Zamena and Numeric
+It is Zamena: rule = Pare-change, open = dont, code = cpms, owner = Monid. 
+It is Numeric: digit = 1, open = keep, code = 115516, owner = Bardashevskaya. 
+Zamena and Zamena
+It is Zamena: rule = Pare-change, open = dont, code = cpms, owner = Monid. 
+It is Zamena: rule = Keyword-change, open = test, code = prop, owner = Alexeev. 
+Zamena and Zamena
+It is Zamena: rule = Pare-change, open = dont, code = cpms, owner = Monid. 
+It is Zamena: rule = Atbash, open = cat, code = xzg, owner = User1. 
+Zamena and Cezar
+It is Zamena: rule = Pare-change, open = dont, code = cpms, owner = Monid. 
+It is Cezar: rot = 10, open = doc, code = nym, owner = User3. 
+Zamena and Cezar
+It is Zamena: rule = Pare-change, open = dont, code = cpms, owner = Monid. 
+It is Cezar: rot = 3, open = it, code = lw, owner = Ivanov. 
+Zamena and Cezar
+It is Zamena: rule = Pare-change, open = dont, code = cpms, owner = Monid. 
+It is Cezar: rot = 25, open = is, code = hr, owner = Efimov. 
+Numeric and Zamena
+It is Numeric: digit = 1, open = keep, code = 115516, owner = Bardashevskaya. 
+It is Zamena: rule = Keyword-change, open = test, code = prop, owner = Alexeev. 
+Numeric and Zamena
+It is Numeric: digit = 1, open = keep, code = 115516, owner = Bardashevskaya. 
+It is Zamena: rule = Atbash, open = cat, code = xzg, owner = User1. 
+Numeric and Cezar
+It is Numeric: digit = 1, open = keep, code = 115516, owner = Bardashevskaya. 
+It is Cezar: rot = 10, open = doc, code = nym, owner = User3. 
+Numeric and Cezar
+It is Numeric: digit = 1, open = keep, code = 115516, owner = Bardashevskaya. 
+It is Cezar: rot = 3, open = it, code = lw, owner = Ivanov. 
+Numeric and Cezar
+It is Numeric: digit = 1, open = keep, code = 115516, owner = Bardashevskaya. 
+It is Cezar: rot = 25, open = is, code = hr, owner = Efimov. 
+Zamena and Zamena
+It is Zamena: rule = Keyword-change, open = test, code = prop, owner = Alexeev. 
+It is Zamena: rule = Atbash, open = cat, code = xzg, owner = User1. 
+Zamena and Cezar
+It is Zamena: rule = Keyword-change, open = test, code = prop, owner = Alexeev. 
+It is Cezar: rot = 10, open = doc, code = nym, owner = User3. 
+Zamena and Cezar
+It is Zamena: rule = Keyword-change, open = test, code = prop, owner = Alexeev. 
+It is Cezar: rot = 3, open = it, code = lw, owner = Ivanov. 
+Zamena and Cezar
+It is Zamena: rule = Keyword-change, open = test, code = prop, owner = Alexeev. 
+It is Cezar: rot = 25, open = is, code = hr, owner = Efimov. 
+Zamena and Cezar
+It is Zamena: rule = Atbash, open = cat, code = xzg, owner = User1. 
+It is Cezar: rot = 10, open = doc, code = nym, owner = User3. 
+Zamena and Cezar
+It is Zamena: rule = Atbash, open = cat, code = xzg, owner = User1. 
+It is Cezar: rot = 3, open = it, code = lw, owner = Ivanov. 
+Zamena and Cezar
+It is Zamena: rule = Atbash, open = cat, code = xzg, owner = User1. 
+It is Cezar: rot = 25, open = is, code = hr, owner = Efimov. 
+Cezar and Cezar
+It is Cezar: rot = 10, open = doc, code = nym, owner = User3. 
+It is Cezar: rot = 3, open = it, code = lw, owner = Ivanov. 
+Cezar and Cezar
+It is Cezar: rot = 10, open = doc, code = nym, owner = User3. 
+It is Cezar: rot = 25, open = is, code = hr, owner = Efimov. 
+Cezar and Cezar
+It is Cezar: rot = 3, open = it, code = lw, owner = Ivanov. 
+It is Cezar: rot = 25, open = is, code = hr, owner = Efimov. 
+
 Empty container. 
 Container contents 0 elements.

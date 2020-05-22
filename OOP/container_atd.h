@@ -15,6 +15,7 @@ namespace simple_codes
 		void Sort();
 		void OutZamena(ofstream& ofst);
 		void Clear();
+		void MultiMethod(ofstream& ofst);
 		container();
 		~container() { Clear(); } 
 	};

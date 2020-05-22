@@ -11,6 +11,10 @@ namespace simple_codes
 		void InData(ifstream& ifst);  
 		void Out(ofstream& ofst);  
 		int MesLength();
+		virtual void MultiMethod(code* other, ofstream& ofst);
+		virtual void MMZamena(ofstream& ofst);
+		virtual void MMCezar(ofstream& ofst);
+		virtual void MMNumeric(ofstream& ofst);
 		cezar() {} 
 	};
 } // end simple_codes namespace

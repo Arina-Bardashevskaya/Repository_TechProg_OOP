@@ -16,6 +16,10 @@ const int MAX_STRING_SIZE = 80;
 		virtual void Out(ofstream& ofst) = 0;   
 		virtual void OutZamena(ofstream& ofst);
 		virtual int MesLength() = 0;
+		virtual void MultiMethod(code* other, ofstream& ofst) = 0;
+		virtual void MMZamena(ofstream& ofst) = 0;
+		virtual void MMCezar(ofstream& ofst) = 0;
+		virtual void MMNumeric(ofstream& ofst) = 0;
 
 		bool Compare(code& other);
 	};

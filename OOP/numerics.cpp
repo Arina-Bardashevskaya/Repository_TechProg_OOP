@@ -49,4 +49,25 @@ namespace simple_codes
 		while (message[length] != '\0' && length < MAX_STRING_SIZE) length++;
 		return length;
 	}
+
+	void numeric::MultiMethod(code* other, ofstream& ofst)
+	{
+		other->MMNumeric(ofst);
+	}
+
+	void numeric::MMZamena(ofstream& ofst)
+	{
+		ofst << "Zamena and Numeric" << endl;
+	}
+
+	void numeric::MMCezar(ofstream& ofst)
+	{
+		ofst << "Cezar and Numeric" << endl;
+	}
+
+	void numeric::MMNumeric(ofstream& ofst)
+	{
+		ofst << "Numeric and Numeric" << endl;
+	}
+
 } // end simple_codes namespace
