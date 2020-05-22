@@ -8,6 +8,7 @@ namespace simple_codes {
 	class code {
 	public:
 		char message[20];
+		char owner[20];
 		static  code* In(ifstream& ifst);
 		virtual void InData(ifstream& ifst) = 0; 
 		virtual void Out(ofstream& ofst) = 0;     
