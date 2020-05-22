@@ -51,7 +51,7 @@ namespace simple_codes {
 	}
 
 	void zamena::OutZamena(ofstream& ofst) {
-		Out(ofst);
+	Out(ofst);
 	}
 }
 

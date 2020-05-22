@@ -157,7 +157,6 @@
   <ItemGroup>
     <ClInclude Include="cezar_atd.h" />
     <ClInclude Include="code_atd.h" />
-    <ClInclude Include="containers.h" />
     <ClInclude Include="container_atd.h" />
     <ClInclude Include="numeric_atd.h" />
     <ClInclude Include="zamena_atd.h" />

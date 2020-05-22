@@ -2,12 +2,14 @@
 #include <string>
 using namespace std;
 namespace simple_codes {
+
 	void numeric::InData(ifstream& ifst)
 	{
 		ifst >> digit;
 		ifst >> message;
+		ifst >> owner;
 	}
-} // end simple_codes namespace
+} 
 
 using namespace std;
 
@@ -30,10 +32,21 @@ string codingNumeric(char message[20], int digit)
 	return str_result;
 }
 namespace simple_codes {
+
 	void numeric::Out(ofstream& ofst)
 	{
 		ofst << "It is Numeric: digit = " << digit
 			<< ", open = " << message
-			<< ", code = " << codingNumeric(message, digit) << endl;
+			<< ", code = " << codingNumeric(message, digit)
+			<< ", owner = " << owner << "." << endl;
 	}
-} // end simple_codes namespace
+}
+
+namespace simple_codes {
+	int numeric::MesLength()
+	{
+		int length = 0;
+		while (message[length] != '\0' && length < 20) length++;
+		return length;
+	}
+}

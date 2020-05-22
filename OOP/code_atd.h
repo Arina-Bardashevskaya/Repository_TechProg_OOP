@@ -11,9 +11,10 @@ namespace simple_codes {
 		char owner[20];
 		static  code* In(ifstream& ifst);
 		virtual void InData(ifstream& ifst) = 0; 
-		virtual void Out(ofstream& ofst) = 0;
+		virtual void Out(ofstream& ofst) = 0;   
 		virtual void OutZamena(ofstream& ofst);
 		virtual int MesLength() = 0;
+
 		bool Compare(code& other);
 	};
 }
