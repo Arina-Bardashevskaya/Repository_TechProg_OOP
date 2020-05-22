@@ -1,20 +1,17 @@
 #include "numeric_atd.h"
 #include <string>
-using namespace std;
-namespace simple_codes {
 
+using namespace std;
+const int maxStringeSize = 80;
+
+namespace simple_codes {
 	void numeric::InData(ifstream& ifst)
 	{
 		ifst >> digit;
 		ifst >> message;
 		ifst >> owner;
 	}
-} 
 
-using namespace std;
-const int maxStringeSize = 80;
-
-namespace simple_codes {
 	string codingNumeric(char message[maxStringeSize], int digit)
 	{
 		string alf = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxy";
@@ -36,9 +33,6 @@ namespace simple_codes {
 		}
 		return str_result;
 	}
-}
-
-namespace simple_codes {
 
 	void numeric::Out(ofstream& ofst)
 	{
@@ -47,9 +41,7 @@ namespace simple_codes {
 			<< ", code = " << codingNumeric(message, digit)
 			<< ", owner = " << owner << ". ";
 	}
-}
 
-namespace simple_codes {
 	int numeric::MesLength()
 	{
 		int length = 0;

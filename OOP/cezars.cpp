@@ -1,20 +1,17 @@
 ﻿#include "cezar_atd.h"
 #include <string>
-using namespace std;
-namespace simple_codes {
 
+using namespace std;
+const int maxStringeSize = 80;
+
+namespace simple_codes {
 	void cezar::InData(ifstream& ifst)
 	{
 		ifst >> rot;
 		ifst >> message;
 		ifst >> owner;
 	}
-}
 
-using namespace std;
-
-const int maxStringeSize = 80;
-namespace simple_codes {
 	string codingCezar(char message[maxStringeSize], int rot)
 	{
 		string alf = "abcdefghijklmnopqrstuvwxyz";
@@ -27,7 +24,8 @@ namespace simple_codes {
 			i++;
 		}
 
-		for (int i = 0; i < str_mes.length(); i++) {
+		for (int i = 0; i < str_mes.length(); i++) 
+		{
 			int tmp = alf.find(str_mes[i]);
 			if (tmp >= 0)
 				str_mes[i] = alf[(tmp + (rot % 26)) % 26];
@@ -37,8 +35,7 @@ namespace simple_codes {
 		}
 		return str_mes;
 	}
-}
-namespace simple_codes {
+
 	void cezar::Out(ofstream& ofst)
 	{
 	
@@ -47,9 +44,7 @@ namespace simple_codes {
 			<< ", code = " << codingCezar(message, rot)
 			<< ", owner = " << owner << ". ";
 	}
-}
 
-namespace simple_codes {
 	int cezar::MesLength()
 	{
 		int length = 0;

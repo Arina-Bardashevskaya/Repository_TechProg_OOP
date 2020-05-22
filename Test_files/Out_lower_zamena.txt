@@ -1,1 +1,0 @@
-It is Zamena: rule = Keyword-change, open = TestMes, code = PropCro, owner = TestOwn.  

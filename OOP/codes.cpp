@@ -1,8 +1,9 @@
 #include "zamena_atd.h"
 #include "cezar_atd.h"
 #include "numeric_atd.h"
-using namespace std;
 #include "code_atd.h"
+
+using namespace std;
 
 namespace simple_codes {
 	code* code::In(ifstream& ifst) {

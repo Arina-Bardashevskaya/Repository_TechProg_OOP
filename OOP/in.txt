@@ -1,12 +1,12 @@
 1
-4
+3
 test
 Alexeev
 3
 1
 keep
 Bardashevskaya
-3
+2
 3
 it
 Ivanov
@@ -31,7 +31,7 @@ Efimov
 evil
 Chumakova
 1
-4
+2
 dont
 Monid
 2
@@ -42,3 +42,11 @@ Drepin
 9
 yourself
 Erofeeva
+1
+1
+cat
+User1
+2
+10
+doc
+User3

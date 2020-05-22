@@ -1,1 +1,0 @@
-It is Numeric: digit = 3, open = TestMes, code = 227212215721, owner = TestOwn.

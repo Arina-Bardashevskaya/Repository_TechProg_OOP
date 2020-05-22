@@ -1,6 +1,9 @@
 #include "zamena_atd.h"
 #include <string>
+
 using namespace std;
+const int maxStringeSize = 80;
+
 namespace simple_codes {
 	void zamena::InData(ifstream& ifst)
 	{
@@ -8,12 +11,7 @@ namespace simple_codes {
 		ifst >> message;
 		ifst >> owner;
 	}
-}
 
-using namespace std;
-const int maxStringeSize = 80;
-
-namespace simple_codes {
 	string codingZamena(char message[maxStringeSize], int rule)
 	{
 		string alf = "abcdefghijklmnopqrstuvwxyz";
@@ -35,35 +33,35 @@ namespace simple_codes {
 
 		for (int i = 0; i < str_mes.length(); i++) {
 			int tmp = alf.find(str_mes[i]);
-			if (tmp >= 0) {
-				if (rule == 1) {
+			if (tmp >= 0) 
+			{
+				if (rule == 1) 
 					str_mes[i] = sz1[tmp];
-				}
-				if (rule == 2) {
+				
+				if (rule == 2) 
 					str_mes[i] = sz2[tmp];
-				}
-				if (rule == 3) {
+				
+				if (rule == 3) 
 					str_mes[i] = sz3[tmp];
-				}
+				
 			}
 			tmp = ALF.find(str_mes[i]);
-			if (tmp >= 0) {
-				if (rule == 1) {
+			if (tmp >= 0) 
+			{
+				if (rule == 1) 
 					str_mes[i] = SZ1[tmp];
-				}
-				if (rule == 2) {
+				
+				if (rule == 2) 
 					str_mes[i] = SZ2[tmp];
-				}
-				if (rule == 3) {
+				
+				if (rule == 3) 
 					str_mes[i] = SZ3[tmp];
-				}
+				
 			}
 		}
 		return str_mes;
 	}
-}
 
-namespace simple_codes {
 	void zamena::Out(ofstream& ofst)
 	{
 		string rulename = "Incorrect rule number";
@@ -77,12 +75,11 @@ namespace simple_codes {
 			<< ", owner = " << owner << ". ";
 	}
 
-	void zamena::OutZamena(ofstream& ofst) {
-	Out(ofst);
+	void zamena::OutZamena(ofstream& ofst)
+	{
+		Out(ofst);
 	}
-}
 
-namespace simple_codes {
 	int zamena::MesLength()
 	{
 		int length = 0;
