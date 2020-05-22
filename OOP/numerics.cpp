@@ -12,25 +12,32 @@ namespace simple_codes {
 } 
 
 using namespace std;
+const int maxStringeSize = 80;
 
-string codingNumeric(char message[20], int digit)
-{
-	string alf = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxy";
-	string str_mes = "";
-	int i = 0;
-	while ((message[i]) != '\n' && alf.find(tolower(message[i])) >= 0 && alf.find(tolower(message[i])) < 26 && i < 20)
+namespace simple_codes {
+	string codingNumeric(char message[maxStringeSize], int digit)
 	{
-		str_mes += message[i];
-		i++;
+		string alf = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxy";
+		string str_mes = "";
+		int i = 0;
+		while ((message[i]) != '\0' && i < maxStringeSize)
+		{
+			str_mes += message[i];
+			i++;
+		}
+		string str_result = "";
+		for (int i = 0; i < str_mes.length(); i++)
+		{
+			int tmp = alf.find(tolower(str_mes[i]));
+			if (tmp >= 0)
+				str_result += to_string((tmp + (digit % 26)) % 26);
+			else
+				str_result += str_mes[i];
+		}
+		return str_result;
 	}
-	string str_result = "";
-	for (int i = 0; i < str_mes.length(); i++) {
-		int tmp = alf.find(tolower(str_mes[i])); 
-		if (tmp >= 0)
-			str_result += to_string((tmp + (digit % 26)) % 26);
-	}
-	return str_result;
 }
+
 namespace simple_codes {
 
 	void numeric::Out(ofstream& ofst)
@@ -38,7 +45,7 @@ namespace simple_codes {
 		ofst << "It is Numeric: digit = " << digit
 			<< ", open = " << message
 			<< ", code = " << codingNumeric(message, digit)
-			<< ", owner = " << owner << "." << endl;
+			<< ", owner = " << owner << ". ";
 	}
 }
 
@@ -46,7 +53,7 @@ namespace simple_codes {
 	int numeric::MesLength()
 	{
 		int length = 0;
-		while (message[length] != '\0' && length < 20) length++;
+		while (message[length] != '\0' && length < maxStringeSize) length++;
 		return length;
 	}
 }

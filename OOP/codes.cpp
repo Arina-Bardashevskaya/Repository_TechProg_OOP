@@ -29,7 +29,7 @@ namespace simple_codes {
 
 	void code::OutZamena(ofstream& ofst)
 	{
-		ofst << endl;
+		//ofst << endl;
 	}
 
 	bool code::Compare(code& other)

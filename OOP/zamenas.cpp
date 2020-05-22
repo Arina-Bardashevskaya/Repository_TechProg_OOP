@@ -11,29 +11,56 @@ namespace simple_codes {
 }
 
 using namespace std;
-string codingZamena(char message[20], int rule)
-{
-	string alf = "abcdefghijklmnopqrstuvwxyz";
-	string SZ1 = "zyxwvutsrqponmlkjihgfedcba";
-	string SZ2 = "badcfeghjilknmporqtsvuxwzy";
-	string SZ3 = "shifrzamenybcdgjklopqtuvwx";
-	string str_mes = "";
-	int i = 0;
-	while ((message[i]) != '\n' && alf.find(tolower(message[i])) >= 0 && alf.find(tolower(message[i])) < 26 && i < 20)
-	{
-		str_mes += message[i];
-		i++;
-	}
+const int maxStringeSize = 80;
 
-	for (int i = 0; i < str_mes.length(); i++) {
-		int tmp = alf.find(tolower(str_mes[i])); 
-		if (tmp >= 0) {
-			if (rule == 1) str_mes[i] = SZ1[tmp];
-			if (rule == 2) str_mes[i] = SZ2[tmp];
-			if (rule == 3) str_mes[i] = SZ3[tmp];
+namespace simple_codes {
+	string codingZamena(char message[maxStringeSize], int rule)
+	{
+		string alf = "abcdefghijklmnopqrstuvwxyz";
+		string sz1 = "zyxwvutsrqponmlkjihgfedcba";
+		string sz2 = "badcfehgjilknmporqtsvuxwzy";
+		string sz3 = "shifrzamenybcdgjklopqtuvwx";
+		string ALF = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		string SZ1 = "ZYXWVUTSRQPONMLKJIHGFEDCBA";
+		string SZ2 = "BADCFEHGJILKNMPORQTSVUXWZY";
+		string SZ3 = "SHIFRZAMENYBCDGJKLOPQTUVWX";
+
+		string str_mes = "";
+		int i = 0;
+		while ((message[i]) != '\0' && i < maxStringeSize)
+		{
+			str_mes += message[i];
+			i++;
 		}
+
+		for (int i = 0; i < str_mes.length(); i++) {
+			int tmp = alf.find(str_mes[i]);
+			if (tmp >= 0) {
+				if (rule == 1) {
+					str_mes[i] = sz1[tmp];
+				}
+				if (rule == 2) {
+					str_mes[i] = sz2[tmp];
+				}
+				if (rule == 3) {
+					str_mes[i] = sz3[tmp];
+				}
+			}
+			tmp = ALF.find(str_mes[i]);
+			if (tmp >= 0) {
+				if (rule == 1) {
+					str_mes[i] = SZ1[tmp];
+				}
+				if (rule == 2) {
+					str_mes[i] = SZ2[tmp];
+				}
+				if (rule == 3) {
+					str_mes[i] = SZ3[tmp];
+				}
+			}
+		}
+		return str_mes;
 	}
-	return str_mes;
 }
 
 namespace simple_codes {
@@ -47,7 +74,7 @@ namespace simple_codes {
 		ofst << "It is Zamena: rule = " << rulename
 			<< ", open = " << message
 			<< ", code = " << codingZamena(message, rule)
-			<< ", owner = " << owner << "." << endl;
+			<< ", owner = " << owner << ". ";
 	}
 
 	void zamena::OutZamena(ofstream& ofst) {
@@ -59,7 +86,7 @@ namespace simple_codes {
 	int zamena::MesLength()
 	{
 		int length = 0;
-		while (message[length] != '\0' && length < 20) length++;
+		while (message[length] != '\0' && length < maxStringeSize) length++;
 		return length;
 	}
 }

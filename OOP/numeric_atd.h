@@ -5,9 +5,9 @@
 #include "code_atd.h"
 namespace simple_codes {
 	class numeric : public code {
-		int digit; 
-	public:
 
+	public:
+		int digit; 
 		void InData(ifstream& ifst);  
 		void Out(ofstream& ofst); 
 		int MesLength();

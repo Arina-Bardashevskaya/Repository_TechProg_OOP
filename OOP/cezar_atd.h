@@ -4,8 +4,8 @@
 #include "code_atd.h"
 namespace simple_codes {
 	class cezar : public code {
-		int rot; 
 	public:
+		int rot; 
 		void InData(ifstream& ifst);  
 		void Out(ofstream& ofst);  
 		int MesLength();

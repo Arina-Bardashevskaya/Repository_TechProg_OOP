@@ -5,8 +5,9 @@
 
 namespace simple_codes {
 	class zamena : public code {
-		int rule; 
+
 	public:
+		int rule; 
 		void InData(ifstream& ifst);  
 		void Out(ofstream& ofst);  
 		int MesLength();
