@@ -10,6 +10,7 @@ namespace simple_codes {
 		void In(ifstream& ifst);
 		void Out(ofstream& ofst);
 		int MesLength(ofstream& ofst);
+		void Sort();
 		void Clear();
 		container();
 		~container() { Clear(); } 
