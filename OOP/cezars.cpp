@@ -23,7 +23,7 @@ string codingCezar(char message[20], int rot)
 		i++;
 	}
 	for (int i = 0; i < str_mes.length(); i++) {
-		int tmp = alf.find(tolower(str_mes[i])); //íîìåð òåêóùåãî ñèìâîëà â alf
+		int tmp = alf.find(tolower(str_mes[i]));
 		if (tmp >= 0)
 			str_mes[i] = alf[tmp + (rot % 26)];
 	}
@@ -36,5 +36,14 @@ namespace simple_codes {
 		ofst << "It is Cezar: rot = " << rot
 			<< ", open = " << message
 			<< ", code = " << codingCezar(message, rot) << endl;
+	}
+}
+
+namespace simple_codes {
+	int cezar::MesLength()
+	{
+		int length = 0;
+		while (message[length] != '\0' && length < 20) length++;
+		return length;
 	}
 } 

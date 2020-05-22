@@ -48,3 +48,12 @@ namespace simple_codes {
 			<< ", code = " << codingZamena(message, rule) << "." << endl;
 	}
 }
+
+namespace simple_codes {
+	int zamena::MesLength()
+	{
+		int length = 0;
+		while (message[length] != '\0' && length < 20) length++;
+		return length;
+	}
+}

@@ -7,7 +7,8 @@ namespace simple_codes {
 		int rot; 
 	public:
 		void InData(ifstream& ifst);  
-		void Out(ofstream& ofst);    
+		void Out(ofstream& ofst);  
+		int MesLength();
 		cezar() {} 
 	};
 }

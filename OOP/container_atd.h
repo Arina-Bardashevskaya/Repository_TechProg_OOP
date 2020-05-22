@@ -9,6 +9,7 @@ namespace simple_codes {
 	public:
 		void In(ifstream& ifst);
 		void Out(ofstream& ofst);
+		int MesLength(ofstream& ofst);
 		void Clear();
 		container();
 		~container() { Clear(); } 
