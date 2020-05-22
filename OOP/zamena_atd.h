@@ -8,7 +8,8 @@ namespace simple_codes {
 		int rule; 
 	public:
 		void InData(ifstream& ifst);  
-		void Out(ofstream& ofst);  
+		void Out(ofstream& ofst); 
+		void OutZamena(ofstream& ofst);
 		int MesLength();
 		zamena() {} 
 	};

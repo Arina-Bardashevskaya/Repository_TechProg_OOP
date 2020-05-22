@@ -11,6 +11,7 @@ namespace simple_codes {
 		void Out(ofstream& ofst);
 		int MesLength(ofstream& ofst);
 		void Sort();
+		void OutZamena(ofstream& ofst);
 		void Clear();
 		container();
 		~container() { Clear(); } 

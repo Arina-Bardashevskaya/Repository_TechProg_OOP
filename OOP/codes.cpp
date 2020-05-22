@@ -27,7 +27,10 @@ namespace simple_codes {
 		return sp;
 	}
 
+	void code::OutZamena(ofstream& ofst) {
+		ofst << endl;
+	}
+
 	bool code::Compare(code& other) {
 		return MesLength() < other.MesLength();
-	}
-}
+	}}

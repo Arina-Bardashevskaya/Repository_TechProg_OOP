@@ -49,6 +49,10 @@ namespace simple_codes {
 			<< ", code = " << codingZamena(message, rule)
 			<< ", owner = " << owner << "." << endl;
 	}
+
+	void zamena::OutZamena(ofstream& ofst) {
+		Out(ofst);
+	}
 }
 
 namespace simple_codes {
