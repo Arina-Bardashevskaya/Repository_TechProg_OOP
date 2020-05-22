@@ -1,8 +1,6 @@
-Container contents 10 elements.
-0: It is Zamena: rule = Keyword-change, open = duplication, code = fqjbeispegd.
-Length = 11
-1: It is Cezar: rot = 9, open = yourself, code = hxdabnuo
-Length = 8
+Container contents 10 elements
+0: It is Zamena: rule = Atbash, open = keep, code = pvvk.
+1: It is Cezar: rot = 3, open = it, code = lw
 2: It is Zamena: rule = Pare-change, open = simple, code = tjnokf.
 Length = 6
 3: It is Cezar: rot = 8, open = repeat, code = zmxmib
