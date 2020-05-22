@@ -5,7 +5,8 @@
 
 using namespace std;
 
-namespace simple_codes {
+namespace simple_codes 
+{
 	code* code::In(ifstream& ifst) {
 		code* sp;
 		int k;
@@ -37,4 +38,4 @@ namespace simple_codes {
 	{
 		return MesLength() < other.MesLength();
 	}
-}
+} // end simple_codes namespace

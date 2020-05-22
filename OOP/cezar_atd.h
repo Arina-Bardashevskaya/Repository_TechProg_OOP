@@ -2,7 +2,9 @@
 #ifndef __cezar_atd__
 #define __cezar_atd__
 #include "code_atd.h"
-namespace simple_codes {
+
+namespace simple_codes 
+{
 	class cezar : public code {
 	public:
 		int rot; 
@@ -11,5 +13,5 @@ namespace simple_codes {
 		int MesLength();
 		cezar() {} 
 	};
-}
+} // end simple_codes namespace
 #endif

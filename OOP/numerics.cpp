@@ -2,9 +2,10 @@
 #include <string>
 
 using namespace std;
-const int maxStringeSize = 80;
+const int MAX_STRING_SIZE = 80;
 
-namespace simple_codes {
+namespace simple_codes 
+{
 	void numeric::InData(ifstream& ifst)
 	{
 		ifst >> digit;
@@ -12,12 +13,12 @@ namespace simple_codes {
 		ifst >> owner;
 	}
 
-	string codingNumeric(char message[maxStringeSize], int digit)
+	string codingNumeric(char message[MAX_STRING_SIZE], int digit)
 	{
 		string alf = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxy";
 		string str_mes = "";
 		int i = 0;
-		while ((message[i]) != '\0' && i < maxStringeSize)
+		while ((message[i]) != '\0' && i < MAX_STRING_SIZE)
 		{
 			str_mes += message[i];
 			i++;
@@ -45,7 +46,7 @@ namespace simple_codes {
 	int numeric::MesLength()
 	{
 		int length = 0;
-		while (message[length] != '\0' && length < maxStringeSize) length++;
+		while (message[length] != '\0' && length < MAX_STRING_SIZE) length++;
 		return length;
 	}
-}
+} // end simple_codes namespace

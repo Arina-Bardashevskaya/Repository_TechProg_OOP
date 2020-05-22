@@ -3,9 +3,9 @@
 #define __zamena_atd__
 #include "code_atd.h"
 
-namespace simple_codes {
+namespace simple_codes 
+{
 	class zamena : public code {
-
 	public:
 		int rule; 
 		void InData(ifstream& ifst);  
@@ -14,5 +14,5 @@ namespace simple_codes {
 		void OutZamena(ofstream& ofst);
 		zamena() {} 
 	};
-}
+} // end simple_codes namespace
 #endif

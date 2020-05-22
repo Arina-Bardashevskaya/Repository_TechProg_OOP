@@ -3,9 +3,9 @@
 #define __numeric_atd__
 
 #include "code_atd.h"
-namespace simple_codes {
+namespace simple_codes 
+{
 	class numeric : public code {
-
 	public:
 		int digit; 
 		void InData(ifstream& ifst);  
@@ -13,5 +13,5 @@ namespace simple_codes {
 		int MesLength();
 		numeric() {}
 	};
-} 
+}  // end simple_codes namespace
 #endif

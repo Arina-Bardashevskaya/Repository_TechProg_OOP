@@ -4,13 +4,13 @@
 #include <fstream>
 using namespace std;
 
-
-namespace simple_codes {
-const int maxStringeSize = 80;	
+namespace simple_codes 
+{
+const int MAX_STRING_SIZE = 80;	
 	class code {
 	public:
-		char message[maxStringeSize];
-		char owner[maxStringeSize];
+		char message[MAX_STRING_SIZE];
+		char owner[MAX_STRING_SIZE];
 		static  code* In(ifstream& ifst);
 		virtual void InData(ifstream& ifst) = 0; 
 		virtual void Out(ofstream& ofst) = 0;   
@@ -19,5 +19,5 @@ const int maxStringeSize = 80;
 
 		bool Compare(code& other);
 	};
-}
+} // end simple_codes namespace
 #endif

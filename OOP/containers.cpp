@@ -1,6 +1,7 @@
 #include "container_atd.h"
 
-namespace simple_codes {
+namespace simple_codes 
+{
 	container::container() : len(0) { }
 	void container::Clear() 
 	{
@@ -59,4 +60,4 @@ namespace simple_codes {
 			ofst << "Length = " << cont[i]->MesLength() << "." << endl;
 		}
 	}
-}
+} // end simple_codes namespace

@@ -1,7 +1,9 @@
 #ifndef __container_atd__
 #define __container_atd__
 #include "code_atd.h"
-namespace simple_codes {
+
+namespace simple_codes 
+{
 	class container {
 		enum { max_len = 100 }; 
 		int len;
@@ -16,5 +18,5 @@ namespace simple_codes {
 		container();
 		~container() { Clear(); } 
 	};
-}
+} // end simple_codes namespace
 #endif
