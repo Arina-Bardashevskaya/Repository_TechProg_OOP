@@ -47,4 +47,8 @@ namespace simple_codes {
 			<< ", open = " << message
 			<< ", code = " << codingZamena(message, rule) << "." << endl;
 	}
+
+	void zamena::OutZamena(ofstream& ofst) {
+		Out(ofst);
+	}
 }

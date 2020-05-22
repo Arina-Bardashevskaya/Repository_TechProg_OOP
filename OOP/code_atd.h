@@ -10,7 +10,8 @@ namespace simple_codes {
 		char message[20];
 		static  code* In(ifstream& ifst);
 		virtual void InData(ifstream& ifst) = 0; 
-		virtual void Out(ofstream& ofst) = 0;     
+		virtual void Out(ofstream& ofst) = 0;
+		virtual void OutZamena(ofstream& ofst);
 	};
 }
 #endif

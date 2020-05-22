@@ -22,4 +22,8 @@ namespace simple_codes {
 		sp->InData(ifst);
 		return sp;
 	}
+
+	void code::OutZamena(ofstream& ofst) {
+		ofst << endl;
+	}
 }
