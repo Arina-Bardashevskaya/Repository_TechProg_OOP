@@ -6,6 +6,7 @@ namespace simple_codes {
 	{
 		ifst >> rule;
 		ifst >> message;
+		ifst >> owner;
 	}
 }
 
@@ -45,7 +46,8 @@ namespace simple_codes {
 		if (rule == 3) rulename = "Keyword-change"; 
 		ofst << "It is Zamena: rule = " << rulename
 			<< ", open = " << message
-			<< ", code = " << codingZamena(message, rule) << "." << endl;
+			<< ", code = " << codingZamena(message, rule)
+			<< ", owner = " << owner << "." << endl;
 	}
 }
 

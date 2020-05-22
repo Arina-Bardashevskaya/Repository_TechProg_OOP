@@ -7,6 +7,7 @@ namespace simple_codes {
 	{
 		ifst >> rot;
 		ifst >> message;
+		ifst >> owner;
 	}
 }
 
@@ -35,7 +36,8 @@ namespace simple_codes {
 	
 		ofst << "It is Cezar: rot = " << rot
 			<< ", open = " << message
-			<< ", code = " << codingCezar(message, rot) << endl;
+			<< ", code = " << codingCezar(message, rot)
+			<< ", owner = " << owner << "." << endl;
 	}
 }
 
