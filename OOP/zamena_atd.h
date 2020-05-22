@@ -8,7 +8,10 @@ namespace simple_codes {
 		int rule; 
 	public:
 		void InData(ifstream& ifst);  
-		void Out(ofstream& ofst);   
+		void Out(ofstream& ofst); 
+		virtual void MultiMethod(code* other, ofstream& ofst);
+		virtual void MMZamena(ofstream& ofst);
+		virtual void MMCezar(ofstream& ofst);
 		zamena() {} 
 	};
 }

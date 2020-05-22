@@ -7,9 +7,10 @@ namespace simple_codes {
 		ifst >> rule;
 		ifst >> message;
 	}
-}
+} // end simple_codes namespace
 
 using namespace std;
+
 string codingZamena(char message[20], int rule)
 {
 	string alf = "abcdefghijklmnopqrstuvwxyz";
@@ -25,7 +26,7 @@ string codingZamena(char message[20], int rule)
 	}
 
 	for (int i = 0; i < str_mes.length(); i++) {
-		int tmp = alf.find(tolower(str_mes[i])); 
+		int tmp = alf.find(tolower(str_mes[i]));
 		if (tmp >= 0) {
 			if (rule == 1) str_mes[i] = SZ1[tmp];
 			if (rule == 2) str_mes[i] = SZ2[tmp];
@@ -39,12 +40,23 @@ namespace simple_codes {
 	void zamena::Out(ofstream& ofst)
 	{
 		string rulename = "Incorrect rule number";
-
-		if (rule == 1) rulename = "Atbash"; 
-		if (rule == 2) rulename = "Pare-change"; 
-		if (rule == 3) rulename = "Keyword-change"; 
+		if (rule == 1) rulename = "Atbash";
+		if (rule == 2) rulename = "Pare-change";
+		if (rule == 3) rulename = "Keyword-change";
 		ofst << "It is Zamena: rule = " << rulename
 			<< ", open = " << message
 			<< ", code = " << codingZamena(message, rule) << "." << endl;
 	}
-}
+
+	void zamena::MultiMethod(code* other, ofstream& ofst) {
+		other->MMZamena(ofst);
+	}
+
+	void zamena::MMZamena(ofstream& ofst) {
+		ofst << "Zamena and Zamena" << endl;
+	}
+
+	void zamena::MMCezar(ofstream& ofst) {
+		ofst << "Cezar and Zamena" << endl;
+	}
+} // end simple_codes namespace

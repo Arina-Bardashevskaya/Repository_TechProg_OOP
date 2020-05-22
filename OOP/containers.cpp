@@ -8,6 +8,7 @@ namespace simple_codes {
 		}
 		len = 0;
 	}
+
 	void container::In(ifstream& ifst) {
 		while (!ifst.eof()) {
 			if (((cont[len] = code::In(ifst)) != 0) && len < 99) {
@@ -15,6 +16,7 @@ namespace simple_codes {
 			}
 		}
 	}
+
 	void container::Out(ofstream& ofst) {
 		ofst << "Container contents " << len
 			<< " elements." << endl;
@@ -23,4 +25,15 @@ namespace simple_codes {
 			cont[i]->Out(ofst);
 		}
 	}
-}
+
+	void container::MultiMethod(ofstream& ofst) {
+		ofst << "Multimethod." << endl;
+		for (int i = 0; i < len - 1; i++) {
+			for (int j = i + 1; j < len; j++) {
+				cont[i]->MultiMethod(cont[j], ofst);
+				cont[i]->Out(ofst);
+				cont[j]->Out(ofst);
+			}
+		}
+	}
+} // end simple_codes namespace

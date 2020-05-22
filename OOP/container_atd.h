@@ -10,6 +10,7 @@ namespace simple_codes {
 		void In(ifstream& ifst);
 		void Out(ofstream& ofst);
 		void Clear();
+		void MultiMethod(ofstream& ofst);
 		container();
 		~container() { Clear(); } 
 	};
