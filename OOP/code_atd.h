@@ -12,6 +12,8 @@ namespace simple_codes {
 		virtual void InData(ifstream& ifst) = 0; 
 		virtual void Out(ofstream& ofst) = 0;
 		virtual int MesLength() = 0;
+
+		bool Compare(code& other);
 	};
 }
 #endif

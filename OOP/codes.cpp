@@ -22,4 +22,8 @@ namespace simple_codes {
 		sp->InData(ifst);
 		return sp;
 	}
+
+	bool code::Compare(code& other) {
+		return MesLength() < other.MesLength();
+	}
 }
